@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Security in a box</title>
+	 	<meta charset="utf-8">
+	 	<link rel="icon" type="text/css" href="live-grid.png">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="agrupar">
+			<header class="header">
+				<h1>Security in a Box</h1>
+			</header>
+			<nav class="menu">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="paguina2.html">Malware y Phishing</a></li>
+					<li><a href="paguina3.html">Amenazas físicas</a></li>
+					<li><a href="paguina4.html">Constraseñas fuertes</a></li>
+					<li><a href="paguina5.html">Comunicaciones privadas</a></li>
+				</ul>
+			</nav>
+			<section class="seccion">
+				<article>
+					<hgroup>
+						<h1>Protege tu dispositivo de malware y ataques de phishing</h1>
+					</hgroup>
+<p>
+Entender cómo proteger tus comunicaciones digitales significa entender diversos problemas y amenazas. Hay consideraciones técnicas, como lo que ocurre con tus mensajes entre tu computadora y la del destinatario, pero también hay otros aspectos, como mantener tu dispositivo protegido contra malware, usar buenas contraseñas, evitar intentos de phishing y tener un plan de comunicaciones que satisfaga tus necesidades.<br>
+<h2>Qué puedes aprender de esta guía</h2>
+
+    Qué información es vulnerable en comunicaciones digitales<br>
+    Por qué la mayoría de servicios de correo web y mensajería instantánea no son seguros<br>
+    Qué medidas puedes tomar para proteger tus comunicaciones digitales<br>
+    Qué buscar al elegir herramientas y servicios para comunicaciones digitales<br>
+    Qué hacer si piensas que alguien puede estar accediendo a tu correo electrónico u otra cuenta de comunicación<br>
+
+<h2>Introducción a la comunicación digital</h2>
+
+Cuando conversas en persona o entregas una nota sobre un tema delicado, es relativamente fácil pensar quién puede haber escuchado o leído esa información. Con la comunicación digital, además de quién puede escucharla o verla físicamente, las infraestructuras y elecciones de los proveedores de servicios afectan la exposición de tus comunicaciones.<br>
+
+Hay muchas maneras diferentes de comunicarse por internet y redes telefónicas. Cada método tiene ventajas y desventajas según tu conveniencia, tus necesidades de comunicación y la privacidad o seguridad de tu mensaje. Entre otras, las principales formas de comunicación que usan tecnología son:<br>
+
+    Telefonía móvil y fija<br>
+    SMS o mensajes de texto en redes de telefonía móvil<br>
+    Correo electrónico<br>
+    Mensajería que usa servicios y una conexión a internet (por lo general incluye mensajes cortos, fotos, llamadas de voz y llamadas de video)<br>
+    Foros y plataformas de discusión
+
+Aunque hay información que es específica a la forma de comunicación o una herramienta específica, hay ideas generales que te ayudarán a entender dónde pueden quedar expuestas tus comunicaciones y qué puedes hacer para evitar o reducir algunos riesgos. Puedes encontrar más información específica según la herramienta en las guías para Thunderbird, Enigmail y GPG para Windows, Linux, Mac y Signal for Android.<br>
+<h2>A dónde van tus mensajes</h2>
+
+Cuando usas internet, tu información viaja a través de muchas partes de hardware e infraestructuras controladas por muchas empresas y actores diferentes. Aunque no es posible predecir la ruta exacta que tomará una información específica, es posible explicar qué pasa de manera general.<br>
+
+Cuando visitas un sitio web en tu computadora, tu navegador envía una solicitud a ese sitio web a través de tu conexión inalámbrica, y pasa a través del router de tu casa, la infraestructura local de internet y luego a tu proveedor de servicios de internet. Luego pasa a través de diversos servidores y probablemente por al menos una entrada nacional, luego al proveedor de servicios de internet del sitio web, al router del grupo de servidores y luego al servidor que contiene el sitio web. Cuando la solicitud llega al servidor del sitio web, el servidor envía la información que tu navegador necesita para desplegar una copia del sitio web por una ruta similar, aunque no exactamente igual. Esta es una versión simplificada de lo que ocurre e ignora componentes y rastreadores del sitio web de un tercero, que significa que la solicitud al final va incluso a más lugares. Hablaremos sobre las comunicaciones telefónicas más adelante.<br>
+
+Las comunicaciones que se hacen a través de la web se comportan como cualquier otra información que se envía a través de internet. Revisar tu correo electrónico, usar una aplicación de chat o visitar un foro, todo eso funciona como cuando visitas cualquier otro sitio web. Con un sitio web típico, desde tu computadora, a través de la infraestructura de internet, al servidor del sitio web y luego de vuelta del servidor, a través de la infraestructura de internet, a ti. Con el correo electrónico y algunas aplicaciones de chat, tu mensaje va del servidor de tu proveedor de correo electrónico, a través de la infraestructura de internet, al servidor del proveedor de correo electrónico del destinatario, para que luego siga la misma ruta al destinatario, como antes ocurrió desde el servidor del sitio web a tu computadora.<br>
+
+A lo largo de estas rutas, tu tráfico de internet, que incluye tus comunicaciones, puede estar siendo vigilado o interceptado:<br>
+
+    en tu computadora o smartphone, si hay malware o alguien está mirando<br>
+    en el router inalámbrico, si tiene malware o está controlado o alguien malicioso está escuchando a escondidas<br>
+    por tu proveedor de servicios de internet, incluso en nombre de las autoridades o delincuentes<br>
+    en entradas nacionales (aunque tú y el destinatario o sitio web estén en el mismo país)<br>
+    con acceso al tráfico de internet con cables físicos y ramas principales de internet<br>
+    por el proveedor de servicios de internet del servicio o sitio web que estás usando<br>
+    por el proveedor de servicios de internet de las personas con las que te comunicas<br>
+    en el servidor que almacena o enruta tus comunicaciones<br>
+    en el router inalámbrico del destinatario si tiene malware o lo controla alguien malicioso<br>
+    en la computadora o smartphone de las personas con las que te comunicas<br>
+
+Usar encriptación, cuidar tu smartphone y computadora y conocer los pasos a seguir para proteger tus comunicaciones son importantes. Se unen para proteger tus comunicaciones de diferentes problemas. Si te preocupa que tu proveedor de servicios de internet o quien controle tu punto de acceso inalámbrico pueda interceptar o vigilar tus comunicaciones, puedes usar una VPN, o red privada virtual, para proteger más tu tráfico de internet. De cómo proteger tu tráfico de internet tratamos en cómo permanecer anónimo y eludir la censura en internet. En muchos niveles diferentes, tus comunicaciones podrían estar en la mira de agencias gubernamentales, corporaciones, delincuentes (incluidos grupos de crimen organizado) y grupos semiorganizados opuestos a tus objetivos.<br>
+
+También hay muchas maneras en que tu tráfico puede ser rastreado hasta ti. Creándote una cuenta de correo electrónico o de mensajería que no permita identificarte, puede significar que su creación y acceso sea solamente mediante el navegador Tor, TAILS, o estando en un Cybercafé.<br>
+<h2>Comunicación "telefónica"</h2>
+
+Cuando visitas un sitio web en tu smartphone, la solicitud desde el navegador pasa por la conexión de datos de tu smartphone a torres celulares cercanas. Las torres pueden estar controladas por tu proveedor de celular o por otro proveedor que tiene un acuerdo con tu proveedor de servicio celular. A veces, tu proveedor celular es también el proveedor de servicios de internet. Si son empresas diferentes, la solicitud va desde la torre de celular hasta tu proveedor de celular, y luego al proveedor de servicios de internet, y desde ahí toma la misma ruta de solicitud en tu computadora.<br>
+
+Los smartphones y los teléfonos básicos tienen un hardware de conexión de red especializado llamado tarjeta de banda base que se conecta a la red celular. Las torres celulares o puntos de conexión pueden permitir diferentes conexiones para datos y también para llamadas y mensajes SMS. A veces, tus llamadas de voz y mensajes SMS pueden pasar por la conexión de parte de datos en lugar de la conexión habitual. Aunque las conexiones comunes y corrientes entre un teléfono móvil y una torre celular están mayormente encriptadas, muchas veces son fáciles de interceptar y leer o escuchar a través de diversos ataques con equipo común disponible.<br>
+
+Los smartphones y algunos teléfonos básicos te permiten usar aplicaciones para comunicación más segura con tu teléfono y una conexión de datos. Muchas de estas aplicaciones y plataformas también tienen versiones para computadoras. Hay factores que hacen que comunicarse usando un smartphone sea diferente que usar una computadora para el mismo programa o plataforma. Tal vez quieras poner alguna herramienta de comunicación en tu smartphone o tu computadora, o tal vez quieras ponerlos en los dos. Puedes leer más sobre estos factores en cómo usar smartphones de manera segura.<br>
+<h2>Diferentes clases de encriptación</h2>
+
+La encriptación es una manera de usar matemáticas inteligentes para cifrar el contenido de un mensaje para que solamente lo pueda desencriptar y leer alguien que tiene una información particular, como una contraseña o una clave de encriptación.<br>
+
+Puedes encriptar tus archivos y disco duro, que se explica con más detalle en la guía sobre cómo proteger los archivos delicados en tu computadora. Dependiendo de cómo está configurado un router inalámbrico, tus datos pueden ser encriptados entre tu dispositivo y el router inalámbrico. Muchos servicios encriptan tus datos entre tu dispositivo y sus servidores, pero podrán ver los datos en el servidor, aunque el servicio no esté destinado a ese destinatario. La encriptacion de extremo a extremo, a veces conocida como E2E, es cuando tus datos están encriptados en todo momento desde tu computadora personal o smartphone al de la persona que quieres que los lea. Con E2E, ni tu proveedor de servicios ni un tercero que quiera interceptar estará autorizado a ver tus datos.<br>
+
+Cuando decimos que algo está encriptado puede haber partes que no están ocultas. La encriptación más comúnmente discutida para las comunicaciones digitales se centra en el contenido de la comunicación, como el cuerpo de un correo electrónico o las palabras en un mensaje de texto. Pero no todas las formas de encriptación protegen los detalles de un mensaje, por ejemplo, el remitente, destinatario, fecha, hora, lugar, dispositivo usado y muchos otros datos discretos. Esta “información sobre la información” se llama metadatos.<br>
+
+Los metadatos pueden parecer relativamente insignificantes, pero cuando se combina un gran volumen, estos datos agregados pueden revelar detalles de tu red y patrones en tu trabajo y tu vida personal. Si usas un método de comunicación que no encripta los metadatos o un servicio que almacena y comparte los metadatos, tal vez debas usar cuentas separadas de uso único para que sea más difícil conectar esa comunicación con tus patrones mayores. Si usas una cuenta especial, asegúrate de entender cuánta protección brinda de acuerdo con cómo configuras todo y qué opciones de uso eliges.<br>
+<h2>TLS y HTTPS</h2>
+
+Los métodos más comunes para encriptar datos entre tu dispositivo y un servidor es TLS, que significa Transport Layer Security (seguridad de capa de transporte). Es el sucesor de SSL (Secure Socket Layer, capa de puertos seguros). Usar TLS es la diferencia entre HTTP y HTTPS. Puedes saber si estás usando una conexión encriptada si miras la barra de direcciones de tu navegador web. HTTPS es ahora la norma para sitios web, aunque algunos sitios web todavía admiten conexiones HTTP o no tienen configurado HTTPS. Si controlas un sitio web sin HTTPS, Let's Encrypt puede ayudarte a arreglarlo.<br>
+
+Cuando visitas un sitio web que usa esta encriptación, su dirección empezará con HTTPS.<br>
+
+Algunas direcciones web empiezan con las letras HTTP, como se puede ver en el ejemplo de abajo:<br>
+
+La S adicional al final significa que tu computadora ha abierto una conexión segura con el sitio web. También notarás el símbolo de un 'candado' en la barra de direcciones. Algunos navegadores marcan los sitios HTTP como "no seguros". Son pistas para que sepas que será mucho más difícil acceder a escondidas en tu comunicación con ese sitio web en particular.<br>
+
+Además de proteger contraseñas y transacciones financieras, esta clase de encriptación te ayuda a proteger tu correo web mientras se traslada entre tu proveedor de correo electrónico y tú. Puedes usar el plugin HTTPS Everywhere en Windows, Linux y Mac para que tu navegador se asegure de que gran parte de tu tráfico, incluidas las comunicaciones que usan el navegador, pasen por conexiones HTTPS. No debes usar un proveedor de correo electrónico que no te pueda ofrecer conexiones HTTPS. Si tu proveedor de correo electrónico no ofrece HTTPS, cámbiate a un proveedor que sí lo ofrezca, como Riseup.<br>
+
+TLS y HTTPS protegen tu comunicación entre tu dispositivo y los servidores del correo electrónico u otra plataforma de comunicación que uses, pero es importante recordar las limitaciones. TLS y HTTPS no protegen tu comunicación después de que llegan a sus servidores. Esto significa que lo que hayas enviado se puede leer dentro de sus servidores, y que puede no haber la misma protección entre servidores y el destinatario. Por ejemplo, si envías un correo electrónico a una persona o a una lista de correos, puede viajar encriptado entre tu computadora y el servidor de correo electrónico, pero puede no haber encriptación entre tu servidor de correo electrónico y el destinatario. Podría haber un servidor de correo electrónico para una lista de distribución en el medio que no ofrezca encriptación.<br>
+
+Estés o no usando una conexión HTTPS, es fácil saberlo cuando te conectas a tu correo electrónico a través de correo web, pero el TLS también es importante cuando te conectas con un cliente de correo electrónico. Si quieres saber cómo mide tu actual proveedor de servicios de correo electrónico este tipo de encriptación o quieres revisar en un proveedor diferente, STARTTLS Everywhere muestra lo que hacen los diferentes proveedores.<br>
+
+Recuerda que, aunque TLS y HTTPS son útiles, no impiden que tu proveedor de servicios de correo electrónico, o cualquier otro servicio de comunicación que uses, vea el contenido de tus comunicaciones. Necesitarás otro tipo de encriptación para asegurarte de que solamente el destinatario elegido pueda ver tu mensaje.<br>
+<h2>Encriptación de extremo a extremo</h2>
+
+Cuando un mensaje está encriptado en todo su traslado desde el dispositivo del remitente al dispositivo del destinatario, se llama de extremo a extremo o encriptación E2E. Es la encriptación que debes buscar cuando quieras que el contenido de tus comunicaciones quede tan en privado como sea posible.<br>
+
+La encriptación E2E que se usa más comúnmente para correo electrónico se llama GPG (o a veces PGP). GPG usa dos ‘llaves’ para encriptar mensajes. Tú guardas en secreto tu ‘llave privada’, y se usa para desencriptar mensajes. Tu ‘llave pública’ se comparte con otros como una forma de dirección que se puede usar para encriptar mensajes para ti. Cuando envías un mensaje con GPG, necesitas la ‘llave pública’ del destinatario, y esto garantiza que solamente esa persona puede leer el mensaje que envías. GPG encriptará el contenido de tu comunicación (como el cuerpo de un correo electrónico) pero no los metadatos (para, de, asunto y fecha de envío).<br>
+
+Para muchas personas, GPG es un poco difícil de entender. Estos videos pueden ser útiles:<br>
+
+    Privacidad, por favor<br>
+    El concepto de la llave<br>
+
+S/MIME es otra opción para encriptar correo electrónico, pero es menos segura y más centralizada. No se recomienda S/MIME como una alternativa a GPG.<br>
+
+Algunas formas de encriptación también pueden ayudarte a saber exactamente con quién te comunicas. El proceso o mecanismo para revisar con quién estás hablando se llama frecuentemente "verificación". También se llama verificación a la revisión de un archivo para ver si ha sido alterado. Algunas herramientas protegerán el contenido de lo que envías y te protegerán de alguien que envíe un mensaje o un archivo, pero que haga que parezca que lo envía otra persona y no tú o agregará mensajes o partes de mensajes a una conversación. Esto puede ser poco importante para ti, pero suele ser una buena idea entender qué funciones te brindan los diferentes canales. Entender tus herramientas de comunicaciones te ayudará a usarlas de manera más efectiva y también te ayudará a tomar decisiones más apropiadas a tus necesidades. GPG y Signal, y también muchas otras opciones de comunicaciones encriptadas, te permiten verificar al remitente de los mensajes. La verificación también te protege contra algunos ataques de phishing.<br>
+
+Es importante conservar registros de algunas comunicaciones y registros, pero la mayoría de nuestras comunicaciones no necesitan guardarse indefinidamente. Las plataformas de mensajería, como Signal y Wire, permiten a los usuarios configurar temporizadores de mensajes que desaparecen. Esto no impide que la persona que recibe un mensaje tome y guarde una captura de pantalla del mensaje. Los mensajes que desaparecen son una manera fácil de generar una limpieza automática para ti y el destinatario. Puede ser una buena manera de limitar qué información puede quedar expuesta en caso que el smartphone o computadora queden comprometidos física o digitalmente, o si roban o se pierde una computadora o un smartphone.<br>
+
+Cuando recibes correo electrónico encriptado con GPG se usa una llave privada y una contraseña para leer cualquier correo electrónico encriptado a esa llave. Con Signal y otros servicios de mensajería encriptados, hay una rotación de llaves, que a veces se llama "Reenvío de Reserva" o "Reenvío de Reserva Perfecto". Este método no es perfecto, pero tiene beneficios. Esto significa que poder desencriptar un mensaje no significa poder desencriptar todos los mensajes. Esto puede ser bueno para la seguridad de tus comunicaciones, pero significa que puedes perder la conveniencia de tener un archivo de todos los mensajes. Combinar esto con mensajes que desaparecen puede limitar mucho la cantidad de comunicaciones que puede quedar expuesta en un momento dado.<br>
+<h2>Crear un buen ambiente para tus conversaciones</h2>
+
+Gran parte de los puntos tratados tratan sobre lo que puede ocurrir mientras tus comunicaciones se trasladan entre tú y el destinatario. Mantener tu correo electrónico seguro empieza con no permitir el ingreso de otras personas a tu correo electrónico. Puedes leer más sobre contraseñas fuertes y autenticación de dos factores (2FA), que es como una segunda contraseña que cambia constantemente en la guía de cómo Crear y mantener contraseñas fuertes.<br>
+
+Con un cliente de correo electrónico (como Thunderbird) o aplicaciones en tu smartphone, a menudo hay una copia de tus comunicaciones guardada localmente. Esto significa que también es importante aprender cómo Proteger tu dispositivo de malware y ataques de phishing. Con todas tus cuentas, y hasta conversaciones telefónicas, debes ser consciente de la posibilidad de ataques de phishing. El phishing es cuando alguien trata de obtener información tuya, como contraseñas e información financiera, con engaños. Es muy efectivo para lograr acceso a una cuenta, y luego usar esa cuenta para engañar a personas que se han comunicado con la cuenta cuando la controlaba el verdadero propietario.<br>
+
+Un buen ambiente para proteger tus conversaciones va más allá de tus opciones. La comunicación es una actividad inherentemente social. Esto significa que es importante asegurarse de que las personas con quienes te comunicas también tomen medidas para proteger la comunicación entre ustedes. La tecnología no puede evitar que las personas se comporten mal, o hagan mal uso de la información que compartiste. Recuerda que la encriptación puede proteger tus datos de personas con las que no tuviste intención de compartir tus datos, no te ayudará con las personas con las que tratas de comunicarte. Puedes limitar parte de ese riesgo si tienes cuidado sobre quién tiene acceso a qué información.<br>
+
+Después de todo, una vez tomadas las precauciones, sigue siendo importante que tengas cuidado con lo que escribes en mensajes y que tengas en cuenta qué ocurriría si caen en manos equivocadas, pues los errores y los accidentes ocurren. Una manera de aumentar la seguridad del intercambio de información es elaborar un sistema de códigos para intercambio de información delicadas, para no tener que usar los nombres verdaderos de las personas, direcciones verdaderas de los lugares, etc.<br>
+<h2>Diferentes herramientas son mejores para algunos tipos de comunicación</h2>
+
+Hay veces en que la manera más fácil de comunicarse es una conversación, en persona o a distancia, como con una llamada o videollamada. Otras veces, un mensaje corto o un documento más largo es una mejor opción. Imágenes, video y grabaciones de sonido también tienen ventajas específicas. Si envías mensajes o cualquier otro archivo, recuerda que incluyen metadatos, o información como fecha, lugar y dispositivo. Asegúrate de no tener problemas para comunicar esa información también. Algunas plataformas y servicios eliminan algunos metadatos de imagen y archivos, pero otros no.<br>
+
+Busca herramientas de comunicaciones seguras que incluyan los métodos que usas generalmente o haz un plan específico para cambiar cómo sueles comunicarte. Aunque recomendamos GPG, Signal y Riseup, tal vez necesites opciones diferentes. Otras opciones a tener en cuenta pueden incluir: Wire y WhatsApp para mensajería y llamadas; Briar, XMPP con OTR y Ricochet para mensajería; meet.jit.si u otro ejemplo de reuniones para llamadas de video y voz de varios participantes (a veces la encriptación no es E2E, pero no registran ni supervisan tus conversaciones como Skype); Tutanota y ProtonMail para correo electrónico encriptado; o Crabgrass, Mastodon y Matrix para medios sociales y grupos de discusión u opciones de chat para grupos.<br>
+
+Aunque creas haber encontrado las opciones perfectas, debes evaluar otras opciones. Es una buena idea tener un método de comunicación de respaldo en caso que tu método principal deje de funcionar brevemente. Sin un método de comunicación secundario, tal vez te quedes fuera en un momento crítico y no puedas comunicarte de manera segura, o debas elegir una herramienta que no conoces.<br>
+<h2>Tener un plan de comunicación</h2>
+
+Cada método de comunicación tiene sus pros y sus contras, pero saber qué limitaciones existen puede ayudarte a planificar. Es recomendable tener un plan específico acerca de cómo te vas a comunicar y qué hacer si algo no funciona o sale mal. Esto puede incluir tener una dirección de correo electrónico de respaldo, compartir números de teléfono o tener listas de contactos de emergencia, u opciones más formales como incluir tus comunicaciones en tu política de seguridad y almacenamiento de datos o política de retención de documentos.<br>
+
+Tener un plan preparado y ensayado puede ayudar a cuidar a tu comunidad y a ti, en momentos de tensión o crisis. Es mucho más fácil y rápido preparar un plan por anticipado que averiguar las mejores opciones en el momento.<br>
+<h2>Consejos para responder a sospechas de ataques y vigilancia de correo electrónico</h2>
+
+Si sospechas de ataques a tu cuenta de correo electrónico o de mensajería o que están en peligro, puedes tomar medidas para reducir el daño. Aunque es difícil estar seguros, hay algunas pistas:<br>
+
+    notas cambios en el contenido o configuraciones de tu cuenta de correo electrónico que no hiciste;<br>
+    los contactos de tu correo electrónico te notifican que han recibido un correo electrónico que no enviaste (aunque también es posible que alguien "imite" tu correo electrónico y haga que parezca que un mensaje salió de tu cuenta cuando no fue así);<br>
+    no puedes iniciar sesión en tu cuenta de correo electrónico, pese a estar seguro de que tu contraseña y configuraciones son correctas;<br>
+    no recibes algunos mensajes de correo electrónico con frecuencia de colegas que insisten en haberlos enviado;<br>
+    información privada enviada o recibida por correo electrónico es de conocimiento de un tercero, aunque ni tú ni la persona a quien se lo enviaste la compartió con nadie;<br>
+    recibes avisos de cambio de contraseña cuando no has cambiado la contraseña;<br>
+    perdiste tu smartphone o alguien en quien no confías se lo llevó y estaba con tus cuentas abiertas;<br>
+    si en el registro de actividad de tu cuenta (si tu proveedor de correo electrónico cuenta con ese registro) notas que accedieron a tu cuenta en un momento que no recuerdas o de un lugar (o dirección IP) a donde no has ido.<br>
+
+<h2>En cualquiera de estas situaciones, tal vez debas:</h2>
+
+    Dejar de usar esta cuenta para intercambio de información delicada, al menos hasta que entiendas mejor la situación.<br>
+
+    Cambiar tu contraseña inmediatamente. Revisa nuestra guía Saber cómo crear y mantener contraseñas seguras. Cambia la contraseña de todas las otras cuentas con la misma contraseña o parecida, pues también pueden estar comprometidas. Usa contraseñas diferentes y fuertes para cada cuenta. Usar un administrador de contraseñas, como KeePassX or KeePassXC, te lo facilita. Cambia las respuestas de tus preguntas de seguridad (si las usas) para todas tus cuentas, para que sea imposible adivinarlas, o que nadie encuentre la respuesta investigándote un poco.<br>
+
+    Revisa las configuraciones de seguridad para ver si puedes cerrar todas las sesiones, es decir, que deberás iniciar sesión de nuevo en cualquier dispositivo en el que quieras acceder a la cuenta.<br>
+
+    Habilita la autenticación de dos factores (2FA), si tu proveedor de correo electrónico lo permite, como una manera de evitar que cualquier persona que haya obtenido tu contraseña acceda a tu cuenta. Echa un vistazo al sitio web Two Factor Auth para ver si tu proveedor ofrece esta función. Al registrarte en 2FA, te pedirá que presentes un código de un solo uso además de tu nombre de usuario y contraseña. Por lo general, te envían este código (suele ser a través de mensaje de texto SMS) o se genera con una aplicación diferente en un dispositivo móvil o computadora. Usar una aplicación con la autenticación de dos factores es considerablemente más seguro. No podrás acceder a tu cuenta sin esa autenticación, ni tampoco podrá acceder otra persona. Google, Facebook y Twitter ofrecen guías útiles sobre cómo habilitar la autenticación de dos factores para sus respectivos servicios.<br>
+
+    Si no puedes iniciar sesión en tu cuenta para cambiar las contraseñas, puedes contactar al proveedor de correo electrónico para recuperar tu cuenta. Algunos proveedores de correo electrónico tienen habilitados procedimientos especiales para ayudar a los usuarios en esa situación, pero no es así con todos.<br>
+
+    Reduce la pérdida de información y el impacto en tu comunidad. Es importante hacer un plan de respuesta. Que sepas qué información delicada tenías en tu cuenta y determinar las personas con quienes intercambias información a través de esa cuenta, que decidas a quién debes alertar y qué otras cuentas deberás volver a visitar o cerrar. Evalúa revisar las configuraciones de tu cuenta para ver los posibles cambios que se hayan hecho. Revisa la opción de firma de cuentas para buscar enlaces y malware, opciones de reenvío que te permitirán copiar correos electrónicos que recibes a una tercera cuenta, mensaje de vacaciones, nombres mostrado, etc. También deberás revisar otras cuentas, como servicios de mensajería y medios sociales que estén conectados o vinculados a esa cuenta.<br>
+
+    Investiga cómo quedó expuesta tu cuenta. ¿Fue por tener una contraseña débil o por infección de malware? Cuanto más sepas de las circunstancias que llevaron a ponerla en riesgo, estarás en mejor posición de responder, proteger tus contactos y evitar que te ataquen de la misma manera en el futuro.<br>
+
+    Revisa la seguridad de todos tus dispositivos que acceden a correos electrónicos desde esta cuenta, y los dispositivos en los que guardaste la contraseña de esta cuenta de correo electrónico. Revisa nuestras guías sobre Cómo proteger tu computadora de malware y ataques, Cómo proteger tu información de amenazas físicas y Cómo usar smartphones de manera tan segura como sea posible. Si no estás seguro de poder limpiar tu dispositivo, evalúa reinstalar todo el software, incluido el sistema operativo, de una fuente limpia. Después de haber hecho estas mejoras a la seguridad de tus dispositivos, cambia las contraseñas de tu cuenta por otra más fuerte.<br>
+
+    Evalúa usar otra cuenta más segura, es decir, una que te notifique e impida acceso de lugares o dispositivos no habituales. Evalúa usar cuentas que estén alojadas fuera de tu país. Evalúa usar encriptación de correo electrónico - lee las guías para Thunderbird, Enigmail y GPG para Windows, Linux y Mac<br>
+
+    Evalúa cambiar a una aplicación de mensajería encriptada con mensajes que desaparecen, como Signal, para que haya un intervalo menor en el que se puede acceder al mensaje si el dispositivo se pierde o lo roban y no puedes borrarlo de manera remota.<br>
+
+    Evalúa pedir ayuda de un experto. Puede haber tecnólogos o investigadores de seguridad en tu comunidad o red extendida que podrían ayudarte. Access Now tiene una línea de ayuda que brinda asistencia técnica y recomendaciones a grupos de la sociedad civil y activistas, organizaciones de medios, periodistas y blogueros, y defensores de derechos humanos.<br>
+
+    Recuerda, la seguridad del correo electrónico no es solamente tener defensas técnicas fuertes. Se trata de prestar atención a cómo se comunican tú y tus contactos de correo electrónico, y de estar atento a tus hábitos de seguridad no técnicos.
+</p>
+				</article>
+			</section>
+			<footer class="pie">
+				<hr><br>
+				Copyright &copy 2019 Rosario. Todos los derechos reservados.
+			</footer>	
+		</div>
+	</body>
+</html>
