@@ -1,8 +1,6 @@
 a:link, a:visited {
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+	color: white;
+  	text-decoration: none;
 }
 
 a:hover, a:active{
@@ -14,8 +12,8 @@ h1{
 	font-family: sans-serif;/*Tipo de fuente*/
 }
 
-header h1{
-	color: white;
+li ul{
+	list-style-type:none;/*lista sin estilo*/
 }
 
 h2{
@@ -50,6 +48,7 @@ body{
 }
 
 .header{
+	color:white;
 	background: #52dcb1;/*fondo*/
 	border: 1px solid #52e9ba;/*borde de 1pixel solido de color*/
 	padding:20px;
